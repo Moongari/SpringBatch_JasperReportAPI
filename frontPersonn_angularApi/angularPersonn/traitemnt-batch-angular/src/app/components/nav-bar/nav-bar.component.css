@@ -1,0 +1,16 @@
+#navbarDropdownMenuAction
+{
+  color: white;
+}
+.dropdown-menu
+{
+  background-color: black;
+
+}
+.dropdown-item{
+  color: orange;
+}
+.navbar-brand{
+  color: orangered;
+  
+}
