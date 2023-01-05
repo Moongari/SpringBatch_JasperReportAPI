@@ -30,8 +30,25 @@
 	1. add List<Personn> findAll(); in the PersonnRepository
     2. Test this api into PostMan
 
+6. install JaspertReport Studio
+	1. Create an account into webSite
+    2. download the last version TIB_js-studiocomm_6.20.0_windows_x86_64.exe
+	3. install on your computer
+	4. follow installation
+	5. go to Repository Explorer
+	6. Go to File => new JasperReport and select SimpleBlue Template
+	7. modify the name of file => personnes.jrxml and click Next
+	8. select Data adapter => Database jdbc connection
+	9. select table Icon and insert this query => select¨* form orders
+	10.Select number of fields like the model Personn => 8 fields
+	11. Modify all Fields like in your Personn Model
+	12. Select Preview in the jasperReport
+	13. select Source code of JasperReport (Code xml)
+	14. Paste this code source in the IDE Intellij but create a new file personns.jrxml
+	15. Add Maven dependancy jasperReport in the pom.xml  => https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports/6.20.0
 	
 	
-6. Create database in PostgreSql
+	
+7. Create database in PostgreSql
     1. Create Database name : BatchPersonne
      
