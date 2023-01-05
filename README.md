@@ -51,4 +51,15 @@
 	
 7. Create database in PostgreSql
     1. Create Database name : BatchPersonne
+	
+	
+8. Create Api report 
+    1. Create folder Service
+	2. Create class ExportReport
+
+9. Create Api Controller Report 
+    1. Create endPoint generateReport
+	2. test your endPoint with Postman
+
+	
      
