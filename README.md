@@ -14,6 +14,7 @@
 		2. insert this line : spring.batch.job.enabled=false
 		3. Modify server port : server.port=8082
 	8. check and get information on application.properties to update your file
+	9. install PostMan on your machine to start your spring batch api
 	
 4. Add Header
     1. Generate Component
