@@ -24,7 +24,7 @@ public class ReportService {
     @Autowired
     private PersonnRepository personnRepository;
     @Value("${file.uri}")
-    private  static  final  String path = null;
+    private String path ;
 
 
     public String ExportReport(String reportFormat) throws FileNotFoundException, JRException {
