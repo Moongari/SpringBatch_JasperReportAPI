@@ -26,14 +26,12 @@
 	7. in Dao folder create PersonnRepository class 
 	8. in controller folder create a PersonnController for to will use this api use this annotation(@RestController,@ControllerAdvice)
 
+5. Create a api getAllPersonn
+	1. add List<Personn> findAll(); in the PersonnRepository
+    2. Test this api into PostMan
 
-5. Create database in PostgreSql
+	
+	
+6. Create database in PostgreSql
     1. Create Database name : BatchPersonne
-    2. 
-        1. 
-    3. 
-    4. 
-    5. 
-        1. 
-        2. 
-        3. 
+     
